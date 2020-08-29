@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container-wrapper">
+        <div class="screen-wrapper">
+            <div class="screen" id="screen">
+                0
+            </div>
+        </div>
+        <div class="keyboard">
+            <div class="item" id="n7" onclick="digitador('7')">7</div>
+            <div class="item" id="n8" onclick="digitador('8')">8</div>
+            <div class="item" id="n9" onclick="digitador('9')">9</div>
+            <div class="item" id="ndiv" onclick="digitador('/')">/</div>
+            <div class="item" id="n4" onclick="digitador('4')">4</div>
+            <div class="item" id="n5" onclick="digitador('5')">5</div>
+            <div class="item" id="n6" onclick="digitador('6')">6</div>
+            <div class="item" id="nmul" onclick="digitador('*')">*</div>
+            <div class="item" id="n1" onclick="digitador('1')">1</div>
+            <div class="item" id="n2" onclick="digitador('2')">2</div>
+            <div class="item active" id="n3" onclick="digitador('3')">3</div>
+            <div class="item" id="nres" onclick="digitador('-')">-</div>
+            <div class="item" id="nigu" onclick="digitador('=')">=</div>
+            <div class="item" id="ncle" onclick="limpiar()">C</div>
+            <div class="item" id="n0" onclick="digitador('0')">0</div>
+            <div class="item" id="nmas" onclick="digitador('+')">+</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
